@@ -60,12 +60,12 @@ default_start, default_end = default_date_range_today()
 
 with st.sidebar:
     st.subheader("Date range")
-    end_date = st.date_input("End date", value=default_end.date(), help="Defaults to today.")
     start_date = st.date_input(
         "Start date",
         value=default_start.date(),
         help="Defaults to 36 months before end date.",
     )
+    end_date = st.date_input("End date", value=default_end.date(), help="Defaults to today.")
 
 req_start = pd.Timestamp(start_date)
 req_end = pd.Timestamp(end_date)
