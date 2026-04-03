@@ -50,7 +50,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("Total Return Comparator")
+st.title("Total Return Analyzer")
 st.caption(
     "Compare hypothetical **$10,000** positions per ticker using Yahoo Finance. "
     "Reinvested total return uses **adjusted close** as a total-return proxy."
