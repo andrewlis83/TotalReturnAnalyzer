@@ -45,7 +45,7 @@ def _loader(sym: str, start: pd.Timestamp, end: pd.Timestamp):
 
 
 st.set_page_config(
-    page_title="Total Return Comparator",
+    page_title="Total Return Analyzer",
     layout="wide",
     initial_sidebar_state="expanded",
 )
